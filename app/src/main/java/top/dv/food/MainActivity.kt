@@ -21,6 +21,8 @@ class MainActivity: AppCompatActivity(),FoodEvent {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        //I need Now this woorked?
+        Toast.makeText(this,"fas",Toast.LENGTH_SHORT).show()
 
         val foodList = arrayListOf(
             Food("Vegetable Salad","15","3","Zahedan","https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",20,4.5f),
